@@ -52,7 +52,9 @@ mcf-sync init
 
 ### Sync
 
-Syncs the files between the local and the remote machines. **Non-destructive, i.e. will NOT remove files!**
+**Non-destructive, i.e. will NOT remove any files, but keeps only the newer file.**
+
+Syncs the files between the local and the remote machines.
 
 ```
 mcf-sync sync
