@@ -17,10 +17,10 @@
     "browser-sync": "^2.10.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
+    "ignore": "^2.2.19",
     "joi": "^7.0.0",
     "jsftp": "^1.5.3",
     "lodash": "^3.10.1",
-    "multimatch": "^2.1.0",
     "prompt": "^0.2.14"
   }
 }
