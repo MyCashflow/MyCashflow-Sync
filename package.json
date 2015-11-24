@@ -1,0 +1,26 @@
+{
+  "name": "mycashflow-sync",
+  "version": "0.1.0",
+  "description": "Synchronizes MyCashflow theme files over FTP",
+  "main": "lib/syncer.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "author": "Jukka Koskinen <jukka@pulse247.info>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "mcf-sync": "bin/cli.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "browser-sync": "^2.10.0",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "joi": "^7.0.0",
+    "jsftp": "^1.5.3",
+    "lodash": "^3.10.1",
+    "multimatch": "^2.1.0",
+    "prompt": "^0.2.14"
+  }
+}

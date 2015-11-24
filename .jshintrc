@@ -1,0 +1,13 @@
+{
+  "asi": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "indent": 2,
+  "latedef": true,
+  "newcap": false,
+  "node": true,
+  "predef": ["-Promise"],
+  "quotmark": "single",
+  "strict": true,
+  "unused": true
+}
