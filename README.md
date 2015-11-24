@@ -16,6 +16,12 @@ Installs the command-line application.
 
 ## Usage
 
+Make sure that the development mode is on in your templates!
+
+```
+{MinifyCSS(files: ..., mode: 'development')}
+```
+
 ```
 1. cd theme-directory
 2. mcf-sync init
