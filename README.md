@@ -7,7 +7,7 @@ Synchronizes MyCashflow theme files over FTP automatically, refreshing the brows
 ## Installation
 
 ```
-npm install -g mycashflow-sync
+npm install -g mycashflow-sync --silent --no-optional
 ```
 
 Installs the command-line application.
