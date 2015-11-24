@@ -1,6 +1,6 @@
 {
   "name": "mycashflow-sync",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Synchronizes MyCashflow theme files over FTP",
   "main": "lib/syncer.js",
   "scripts": {
