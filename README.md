@@ -23,7 +23,7 @@ Make sure that the development mode is on in your templates!
 ```
 
 ```
-1. cd theme-directory
+1. cd theme-directory (can be an empty directory if you want to pull the files from the server)
 2. mcf-sync init
 3. mcf-sync [sync|watch]
 ```
