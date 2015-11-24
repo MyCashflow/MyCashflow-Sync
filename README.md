@@ -88,8 +88,8 @@ You can configure the syncing through `sync.json`.
     "url": "<shop url>",
     "path": "<remote path>",
     "ignore": [
-      "<ignore pattern>",
-      "<ignore pattern>"
+      "*.scss",
+      "*.css.map"
     ]
   }
 }
