@@ -16,16 +16,26 @@ Installs the command-line application.
 
 ## Usage
 
+1. Enable the Web Designer extension in your shop
+2. Create an empty directory or cd into an existing one
+3. Run the init script to generate a config for the directory
+4. Happy syncing!
+
+Like this...
+
+```
+0. mkdir theme-directory
+1. cd theme-directory
+2. mcf-sync init
+3. mcf-sync [sync|watch]
+```
+
+### Notes
+
 Make sure that the development mode is on in your templates!
 
 ```
 {MinifyCSS(files: ..., mode: 'development')}
-```
-
-```
-1. cd theme-directory (can be an empty directory if you want to pull the files from the server)
-2. mcf-sync init
-3. mcf-sync [sync|watch]
 ```
 
 ---
