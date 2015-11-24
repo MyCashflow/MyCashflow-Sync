@@ -74,7 +74,7 @@ You can configure the syncing through `sync.json`.
   },
   "sync": {
     "url": "<shop url>",
-    "path": "<theme path>",
+    "path": "<remote path>",
     "ignore": [
       "<ignore pattern>",
       "<ignore pattern>"
