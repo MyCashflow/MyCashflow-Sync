@@ -6,8 +6,8 @@
     "pass": ""
   },
   "sync": {
-    "proxy": "",
-    "remote": "",
+    "url": "",
+    "path": "",
     "ignore": []
   }
 }

@@ -24,8 +24,8 @@ Program.command('init')
         },
         sync: {
           properties: {
-            proxy: { message: 'Shop URL', required: true },
-            remote: { message: 'Remote path', required: true }
+            url: { message: 'Remote URL', required: true },
+            path: { message: 'Remote path', required: true }
           }
         }
       }

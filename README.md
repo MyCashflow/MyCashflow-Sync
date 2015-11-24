@@ -54,7 +54,7 @@ mcf-sync watch
 
 ## Configuration
 
-You can configure the syncing through `mcf-sync.json`.
+You can configure the syncing through `sync.json`.
 
 ### Example config
 
@@ -67,8 +67,8 @@ You can configure the syncing through `mcf-sync.json`.
     "pass": "<password>"
   },
   "sync": {
-    "proxy": "<shop url>",
-    "remote": "<remote path>",
+    "url": "<shop url>",
+    "path": "<theme path>",
     "ignore": [
       "<ignore pattern>",
       "<ignore pattern>"
@@ -92,8 +92,8 @@ You can find these settings on your shop's **Web Designer** extension admin page
 
 Make sure your shop URL & version is using the theme directory defined in the remote path.
 
-| Option  | Description              |
-|---------|--------------------------|
-| proxy   | Shop's URL to proxy      |
-| remote  | Theme path on the server |
-| ignore  | Patterns to ignore       |
+| Option  | Description        |
+|---------|--------------------|
+| url     | Shop's URL         |
+| path    | Shop's theme path  |
+| ignore  | Patterns to ignore |
