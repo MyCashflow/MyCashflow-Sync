@@ -96,7 +96,7 @@ You can find these settings on your shop's **Web Designer** extension admin page
 
 ### Sync settings
 
-Make sure your shop URL & version is using the theme directory defined in the remote path.
+Make sure your shop version is using the theme directory defined in the remote path.
 
 | Option  | Description        |
 |---------|--------------------|
