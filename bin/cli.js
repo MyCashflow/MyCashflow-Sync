@@ -6,7 +6,8 @@ const Prompt = require('prompt')
 const Syncer = require('../lib/syncer')
 
 Program.version('0.1.1')
-Prompt.message = '>'.green
+Prompt.colors = false
+Prompt.message = '> '.green
 Prompt.delimiter = ''
 
 Program.command('init')
