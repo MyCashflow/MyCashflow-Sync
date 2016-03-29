@@ -28,6 +28,12 @@ Program.command('init')
             url: { message: 'Remote URL (e.g. https://shop.mycashflow.fi)', required: true },
             path: { message: 'Remote path (e.g. theme-name)', required: true }
           }
+        },
+        sass: {
+          properties: {
+            source: { message: 'Sass source path (optional)' },
+            dest: { message: 'Sass destination path (optional)' }
+          }
         }
       }
     }
@@ -46,6 +52,7 @@ Program.command('init')
       Prompt.start()
       Prompt.get(schema, function (err, config) {
         if (err) throw Error(err)
+        if (!config.sass.source) delete config.sass
         config.ftp.port = parseInt(config.ftp.port)
         Syncer.writeConfig(config)
       })
@@ -67,4 +74,4 @@ Program.command('watch')
   })
 
 Program.parse(process.argv)
-process.on('uncaughtException', () => process.exit(0))
+process.on('uncaughtException', (err) => process.exit(0))
