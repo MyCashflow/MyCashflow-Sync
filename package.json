@@ -10,7 +10,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "mcf-sync": "bin/cli.js"
+    "mycashflow-sync": "bin/cli.js"
   },
   "dependencies": {
     "bluebird": "^3.3.4",
