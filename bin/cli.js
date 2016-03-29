@@ -25,8 +25,8 @@ Program.command('init')
         },
         sync: {
           properties: {
-            url: { message: 'Remote URL', required: true },
-            path: { message: 'Remote path', required: true }
+            url: { message: 'Remote URL (e.g. https://shop.mycashflow.fi)', required: true },
+            path: { message: 'Remote path (e.g. theme-name)', required: true }
           }
         }
       }
@@ -40,7 +40,7 @@ Program.command('init')
 
       console.log('\nBefore you start!'.yellow)
       console.log('> You can find the FTP settings on your shop\'s Web Designer extension admin page.')
-      console.log('> The remote path is a relative path to your theme directory on the server!\n')
+      console.log('> The remote path is a relative path to your theme directory on the server!')
       console.log('> You can exit this program anytime by pressing CMD/CTRL+C.')
 
       Prompt.start()
