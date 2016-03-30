@@ -96,8 +96,9 @@ You can configure the syncing through `sync.json`.
     "url": "<shop url>",
     "path": "<remote path>",
     "ignore": [
-      "*.scss",
-      "*.css.map"
+      "./ignored/directory",
+      "./*.scss",
+      "./*.css.map"
     ]
   },
   "sass": {
