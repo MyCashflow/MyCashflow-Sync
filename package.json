@@ -17,7 +17,7 @@
     "browser-sync": "^2.11.2",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "ignore": "^3.0.12",
+    "ignore": "^3.0.14",
     "joi": "^8.0.5",
     "jsftp": "^1.5.3",
     "lodash": "^4.6.1",

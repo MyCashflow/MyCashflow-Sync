@@ -74,4 +74,8 @@ Program.command('watch')
   })
 
 Program.parse(process.argv)
-process.on('uncaughtException', (err) => process.exit(0))
+
+process.on('uncaughtException', (err) => {
+  console.log(err)
+  process.exit(0)
+})
