@@ -14,6 +14,14 @@ Installs the command-line application.
 
 ---
 
+## Updating
+
+```
+npm update -g mycashflow-sync
+```
+
+---
+
 ## Usage
 
 1. Enable the Web Designer extension in your shop
