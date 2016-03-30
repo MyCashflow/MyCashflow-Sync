@@ -26,8 +26,8 @@ Like this...
 ```
 0. mkdir theme-directory
 1. cd theme-directory
-2. mcf-sync init
-3. mcf-sync [sync|watch]
+2. mycashflow-sync init
+3. mycashflow-sync [sync|watch]
 ```
 
 ### Notes
@@ -91,9 +91,15 @@ You can configure the syncing through `sync.json`.
       "*.scss",
       "*.css.map"
     ]
+  },
+  "sass": {
+    "source": "scss",
+    "dest": "css"
   }
 }
 ```
+
+**Sass** paths are optional, and Sass files won't be compiled if you don't provide the Sass paths.
 
 ### FTP settings
 
