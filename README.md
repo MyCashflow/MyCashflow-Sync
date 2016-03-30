@@ -55,7 +55,7 @@ Make sure that the development mode is on in your templates!
 Initializes a new configuration file inside the current directory.
 
 ```
-mcf-sync init
+mycashflow-sync init
 ```
 
 ### Sync
@@ -65,7 +65,7 @@ mcf-sync init
 Syncs the files between the local and the remote machines.
 
 ```
-mcf-sync sync
+mycashflow-sync sync
 ```
 
 ### Watch
@@ -73,7 +73,7 @@ mcf-sync sync
 Syncs local changes to the remote machine automatically.
 
 ```
-mcf-sync watch
+mycashflow-sync watch
 ```
 
 ---
