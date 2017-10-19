@@ -4,8 +4,9 @@ const Fs = require('fs')
 const Program = require('commander')
 const Prompt = require('prompt')
 const Syncer = require('../lib/syncer')
+const package = require('../package.json')
 
-Program.version('0.1.7')
+Program.version(package.version)
 Prompt.colors = false
 Prompt.message = '> '.green
 Prompt.delimiter = ''
