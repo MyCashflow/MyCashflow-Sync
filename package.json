@@ -1,6 +1,6 @@
 {
   "name": "mycashflow-sync",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Synchronizes MyCashflow theme files over FTP",
   "main": "lib/syncer.js",
   "engines": {
@@ -16,7 +16,7 @@
     "mycashflow-sync": "bin/cli.js"
   },
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
+    "@hapi/joi": "^16.1.8",
     "basic-ftp": "^4.5.4",
     "bluebird": "^3.5.1",
     "browser-sync": "^2.26.7",
