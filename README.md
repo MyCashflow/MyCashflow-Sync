@@ -6,20 +6,18 @@ Synchronizes MyCashflow theme files over FTP automatically, refreshing the brows
 
 ---
 
-## Installation
+## Global Installation
+
+npx is the recommended way to use mycashflow-sync, but you can also install it globally:
 
 ```
-npm install -g mycashflow-sync --silent --no-optional
+sudo npm install -g mycashflow-sync
 ```
-
-Installs the command-line application.
-
----
 
 ## Updating
 
 ```
-npm update -g mycashflow-sync
+sudo npm update -g mycashflow-sync
 ```
 
 ---
@@ -36,8 +34,8 @@ Like this...
 ```
 0. mkdir theme-directory
 1. cd theme-directory
-2. mycashflow-sync init
-3. mycashflow-sync [sync|watch]
+2. npx mycashflow-sync init
+3. npx mycashflow-sync [sync|watch]
 ```
 
 ### Notes
@@ -57,7 +55,7 @@ Make sure that the development mode is on in your templates!
 Initializes a new configuration file inside the current directory.
 
 ```
-mycashflow-sync init
+npx mycashflow-sync init
 ```
 
 ### Sync
@@ -67,7 +65,7 @@ mycashflow-sync init
 Syncs the files between the local and the remote machines.
 
 ```
-mycashflow-sync sync
+npx mycashflow-sync sync
 ```
 
 ### Watch
@@ -75,7 +73,7 @@ mycashflow-sync sync
 Syncs local changes to the remote machine automatically.
 
 ```
-mycashflow-sync watch
+npx mycashflow-sync watch
 ```
 
 ---
