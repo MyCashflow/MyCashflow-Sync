@@ -1,10 +1,10 @@
 {
   "name": "mycashflow-sync",
-  "version": "0.6.3",
+  "version": "0.6.6",
   "description": "Synchronizes MyCashflow theme files over FTP",
   "main": "lib/syncer.js",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "scripts": {
     "start": "node cli.js"
@@ -24,7 +24,7 @@
     "commander": "^2.9.0",
     "ignore": "^3.0.14",
     "lodash": "^4.17.15",
-    "prompt": "^1.0.0",
+    "prompt": "^1.2.0",
     "sass": "^1.26.12"
   }
 }
