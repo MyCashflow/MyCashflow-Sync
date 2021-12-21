@@ -2,7 +2,7 @@
 
 Synchronizes MyCashflow theme files over FTP automatically, refreshing the browser after every CSS/HTML/JS change.
 
-**Minimum required Node version >= 8!**
+**Minimum required Node version >= 10!**
 
 ---
 
